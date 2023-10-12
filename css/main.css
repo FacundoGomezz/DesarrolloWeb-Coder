@@ -459,7 +459,8 @@ img {
 }
 
 @media (max-width: 1200px) {
-    .seccion-1 {
+    .body {
         background-image: url("../img/inicio.jpg");
+        background-size: 100%;
     }
         }
