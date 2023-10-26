@@ -18,7 +18,7 @@
 .seccion-1 {
     background-image: url("../img/inicio.jpg");
     color: white;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -29,31 +29,25 @@
     padding-left: 700px;
 }
 
-/*#sec-1 {
-    background-color: bisque;
-    border: solid 5px #c75a00;
-    width: 7rem;
-    padding: 2rem;
-}*/
 
 #sec-2 {
     background-color: bisque;
     border: solid 5px #c75a00;
     width: 7rem;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 #sec-3 {
     background-color: bisque;
     border: solid 5px #c75a00;
     width: 7rem;
-    padding: 2rem;
+    padding: 3rem;
 }
 #sec-4 {
     background-color: bisque;
     border: solid 5px #c75a00;
     width: 6rem;
-    padding: 2rem;
+    padding: 3rem;
     padding-left: 3rem;
 }
 
@@ -63,7 +57,6 @@
 /* NAVEGACION */
 .navegacion {
     background-color: #ffba67;
-    /* padding: 5px; */
     border: solid 5px #d89645;
 
     top: 0;
@@ -114,49 +107,36 @@
     gap: 1rem;
 }
 
-.tarjeta {
-    display: flex;
-    padding: 2rem;
-    justify-content: space-evenly;
-}
+
 
 /*FUNDADORES*/
 #gry {
     background-color: #ff7a62;
     border: solid 5px red;
     width: 10rem;
-    /* margin-left: 8rem;
-    padding-left: 15px; */
 }
 
 #hel {
     background-color:#c5a61e;
     border: solid 5px #ffe985; 
     width: 10rem;
-    /* margin-left: 8rem;
-    padding-left: 15px; */
 }
 
 #row {
     background-color:#3d99e4;
     border: solid 5px #2433ff;
     width: 10rem;
-    /* margin-left: 7rem;
-    padding-left: 18px; */
 }
 
 #sal {
     background-color:#09b303;
     border: solid 5px #165f00; 
     width: 9rem;
-    /* margin-left: 8rem;
-    padding-left: 15px; */
 }
 
 .fundador {
     width: 400px;
     height: 500px;
-    /* padding-left: 20px; */
 }
 
 .godric {
@@ -218,33 +198,24 @@
 #hip { 
     border: solid 5px #c75a00;
     width: 7rem;
-    /* margin-left: 7rem; */
     padding-left: 20px;
 }
 #esc {
     border: solid 5px #c75a00;
     width: 7rem;
-    /* margin-left: 7rem; */
     padding-left: 18px;
 }
 #bow {
     border: solid 5px #c75a00;
     width: 9rem;
-    /* margin-left: 6rem; */
     padding-left: 20px;
 }
 #dem {
     border: solid 5px #c75a00;
     width: 7rem;
-    /* margin-left: 7rem; */
     padding-left: 20px;
 }
 
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
 img {
     width: 100%;
@@ -337,6 +308,7 @@ img {
 .menu-link {
     color:black;
     text-decoration: none;
+    font-size: large;
 }
 
 .biblioteca {
@@ -349,43 +321,33 @@ img {
 #wingardium {
     border: solid 5px #c75a00;
     width: 8rem;
-    /* margin-left: 7rem; */
-    /* padding-left: 7px; */
+
 }
 
 #expelliarmus {
     border: solid 5px #c75a00;
     width: 10rem;
-    /* margin-left: 7rem; */
-    /* padding-left: 7px; */
+
 }
 
 #alohomora {
     border: solid 5px #c75a00;
     width: 8rem;
-    /* margin-left: 7rem; */
-    /* padding-left: 7px; */
 }
 
 #imperio {
     border: solid 5px #c72800;
     width: 5rem;
-    /* margin-left: 7rem; */
-    /* padding-left: 7px; */
 }
 
 #crucio {
     border: solid 5px #c72800;
     width: 5rem;
-    /* margin-left: 7rem; */
-    /* padding-left: 7px; */
 }
 
 #avada {
     border: solid 5px #c72800;
     width: 5rem;
-    /* margin-left: 7rem; */
-    /* padding-left: 7px; */
 }
 
 .mal {
@@ -400,6 +362,13 @@ img {
     background-size: 100% 100%;
 }
 
+.tarjeta {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+    
+}
+
 .good {
     background-color: bisque;
     border: solid 5px #c75a00;
@@ -410,12 +379,19 @@ img {
     font-size: large;
     font-family: "Philosopher";
 }
+
 .good-1 {
     width: 22%;    
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "Roboto";
+    transition: 1s;
+
+}
+
+.good-1:hover {
+    transform: scale(1.5,1.5);
 }
 
 .bad {
@@ -436,31 +412,21 @@ img {
 #varita {
     border: solid 5px #c75a00;
     width: 6rem;
-    /* margin-left: 7rem; */
     padding-left: 20px;
 }
 #escoba {
     border: solid 5px #c75a00;
     width: 6rem;
-    /* margin-left: 7rem; */
     padding-left: 20px;
 }
 #golosina {
     border: solid 5px #c75a00;
     width: 7rem;
-    /* margin-left: 6rem; */
     padding-left: 15px;
 }
 #dinero {
     border: solid 5px #c75a00;
     width: 5rem;
-    /* margin-left: 7rem; */
     padding-left: 18px;
 }
 
-@media (max-width: 1200px) {
-    .body {
-        background-image: url("../img/inicio.jpg");
-        background-size: 100%;
-    }
-        }
