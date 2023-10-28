@@ -1,0 +1,38 @@
+.navegarm {    
+
+    padding: 2px;
+    top: 176px;
+    position: sticky;
+    font-family: "Roboto";
+    font-size: large;
+    
+    z-index: 2;
+
+    .maldiciones {
+        background-color: #047e00;
+        border: solid 5px #005312;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        gap: 2rem;
+
+        .menu-item {
+            box-sizing: border-box;
+            list-style-type: none;
+        }
+
+        .spells {
+            font-family: "Play";
+            padding: center;
+            color: #ffffff;
+        
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+    }
+}

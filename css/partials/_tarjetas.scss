@@ -1,0 +1,42 @@
+.tarjetas {
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+
+    .fantasticas {
+        background-color: bisque;
+        border: solid 5px #c75a00;
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: large;
+        font-family: "Philosopher";
+
+        #hip { 
+            border: solid 5px #c75a00;
+            width: 7rem;
+            padding-left: 20px;
+        }
+        #esc {
+            border: solid 5px #c75a00;
+            width: 7rem;
+            padding-left: 18px;
+        }
+        #bow {
+            border: solid 5px #c75a00;
+            width: 9rem;
+            padding-left: 20px;
+        }
+        #dem {
+            border: solid 5px #c75a00;
+            width: 7rem;
+            padding-left: 20px;
+        }
+        
+        
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.hogwarts {
+    background-color: rgb(146, 66, 0);
+    background-size: 100% 100%;
+    padding: 5px;
+    height: 150px;
+    border: solid 5px #ffc987;
+
+    .titulo {
+        font-family: "Philosopher";
+        font-size: 30px;
+        padding-left: 650px;
+    }
+
+    .class {
+        font-family: "Philosopher";
+        padding-left: 700px ;
+        color: white;
+        font-size: x-large;
+    }
+
+    .class-1 {
+        font-family: "Philosopher";
+        padding-left: 670px ;
+        color: white;
+        font-size: x-large;
+    }
+}
