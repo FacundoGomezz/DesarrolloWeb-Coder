@@ -32,6 +32,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.seccion-1 .navegacion .menu img {
+  transition: 1s;
+}
+.seccion-1 .navegacion .menu img:hover {
+  transform: rotate(360deg);
+}
 .seccion-1 .navegacion .menu .logo {
   width: 4rem;
 }
@@ -463,6 +469,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.terrenos .navegacion .menu img {
+  transition: 1s;
+}
+.terrenos .navegacion .menu img:hover {
+  transform: rotate(360deg);
+}
 .terrenos .navegacion .menu .logo {
   width: 4rem;
 }
@@ -503,6 +515,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.animales .navegacion .menu img {
+  transition: 1s;
+}
+.animales .navegacion .menu img:hover {
+  transform: rotate(360deg);
+}
 .animales .navegacion .menu .logo {
   width: 4rem;
 }
@@ -542,6 +560,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.biblioteca .navegacion .menu img {
+  transition: 1s;
+}
+.biblioteca .navegacion .menu img:hover {
+  transform: rotate(360deg);
 }
 .biblioteca .navegacion .menu .logo {
   width: 4rem;
@@ -646,6 +670,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.callejon .navegacion .menu img {
+  transition: 1s;
+}
+.callejon .navegacion .menu img:hover {
+  transform: rotate(360deg);
 }
 .callejon .navegacion .menu .logo {
   width: 4rem;

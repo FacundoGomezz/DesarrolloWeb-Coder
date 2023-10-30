@@ -21,6 +21,17 @@
         display: flex;
         justify-content:space-between;
         align-items: center;
+
+            
+
+        img {
+            transition: 1s;
+
+            &:hover {
+                transform: rotate(360deg);
+            }
+
+        }
     
         .logo {
             width: 4rem;
