@@ -61,13 +61,17 @@
 .hogwarts .titulo {
   font-family: "Philosopher";
   font-size: 30px;
-  padding-left: 650px;
+  text-align: center;
+}
+.hogwarts .parrafo {
+  font-size: 20px;
+  text-align: center;
 }
 .hogwarts .class {
   font-family: "Philosopher";
-  padding-left: 700px;
+  text-align: center;
   color: white;
-  font-size: x-large;
+  font-size: 30px;
 }
 .hogwarts .class-1 {
   font-family: "Philosopher";
@@ -129,7 +133,7 @@
   transition: 1s;
 }
 .tarjeta .good-1:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(1.5,1.5 );
 }
 .tarjeta .good-1 #sec-1 {
   background-color: rgb(11, 124, 11);
@@ -227,8 +231,8 @@
   height: 500px;
 }
 .tarjeta .good {
-  background-color: bisque;
-  border: solid 5px #c75a00;
+  background-color: #383838c0;
+  border: solid 5px #252525;
   width: 22%;
   display: flex;
   flex-direction: column;
@@ -237,16 +241,22 @@
   font-family: "Philosopher";
 }
 .tarjeta .good #wingardium {
-  border: solid 5px #c75a00;
+  border: solid 5px #6b0000;
   width: 8rem;
+  text-align: center;
+  color:white;
 }
 .tarjeta .good #expelliarmus {
-  border: solid 5px #c75a00;
+  border: solid 5px #6b0000;
   width: 10rem;
+  text-align: center;
+  color:white;
 }
 .tarjeta .good #alohomora {
-  border: solid 5px #c75a00;
+  border: solid 5px #6b0000;
   width: 8rem;
+  text-align: center;
+  color:white;
 }
 .tarjeta .good .objets {
   width: 300px;
@@ -255,22 +265,64 @@
   border: solid 5px #c75a00;
   width: 6rem;
   padding-left: 20px;
+  color: white;
 }
 .tarjeta .good #escoba {
   border: solid 5px #c75a00;
   width: 6rem;
   padding-left: 20px;
+  color: white;
 }
 .tarjeta .good #golosina {
   border: solid 5px #c75a00;
   width: 7rem;
   padding-left: 15px;
+  color: white;
 }
 .tarjeta .good #dinero {
   border: solid 5px #c75a00;
   width: 5rem;
   padding-left: 18px;
+  color: white;
 }
+.tarjeta .good .texto {
+  color: white;
+}
+.tarjeta .bad {
+  background-color: #383838c0;
+  border: solid 5px #252525;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  font-family: "Philosopher";
+}
+.tarjeta .bad #imperio {
+  border: solid 5px #095c01;
+  width: 5rem;
+  color:white;
+  text-align: center;
+}
+.tarjeta .bad #crucio {
+  border: solid 5px #095c01;
+  width: 5rem;
+  color:white;
+  text-align: center;
+}
+.tarjeta .bad #avada {
+  border: solid 5px #095c01;
+  width: 5rem;
+  color:white;
+  text-align: center;
+}
+.tarjeta .bad .mal {
+  width: 300px;
+}
+.tarjeta .bad .texto {
+  color: white;
+}
+
 
 .terrenos {
   background-image: url("../img/hogwarts.jpg");
@@ -455,33 +507,6 @@
   top: 0;
   z-index: 1;
 }
-
-.bad {
-  background-color: rgb(201, 87, 59);
-  border: solid 5px #c72800;
-  width: 22%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: large;
-  font-family: "Philosopher";
-}
-.bad #imperio {
-  border: solid 5px #c72800;
-  width: 5rem;
-}
-.bad #crucio {
-  border: solid 5px #c72800;
-  width: 5rem;
-}
-.bad #avada {
-  border: solid 5px #c72800;
-  width: 5rem;
-}
-.bad .mal {
-  width: 300px;
-}
-
 .callejon {
   background-image: url("../img/callejon diagon.jpg");
   background-repeat: no-repeat;
@@ -520,4 +545,4 @@
 .callejon .navegacion .menu .menu-list #menu-link {
   color: black;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
