@@ -21,30 +21,32 @@
 
         .texto{
             color:white;
+            overflow: hidden;
+            text-align: center;
         }
 
         #hip { 
             border: solid 5px #000000;
             width: 7rem;
-            padding-left: 20px;
+            text-align: center;
             color:white;
         }
         #esc {
             border: solid 5px #000000;
             width: 7rem;
-            padding-left: 18px;
+            text-align: center;
             color:white;
         }
         #bow {
             border: solid 5px #000000;
             width: 9rem;
-            padding-left: 20px;
+            text-align: center;
             color:white;
         }
         #dem {
             border: solid 5px #000000;
             width: 7rem;
-            padding-left: 20px;
+            text-align: center;
             color:white;
         }
         
